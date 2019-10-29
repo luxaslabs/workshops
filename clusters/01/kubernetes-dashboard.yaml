@@ -198,7 +198,7 @@ metadata:
   namespace: kube-system
 spec:
   rules:
-  - host: dashboard.cluster-01.workshops.luxaslabs.com
+  - host: dashboard.cluster-01.gke-workshops.luxaslabs.com
     http:
       paths:
       - backend:
